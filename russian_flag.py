@@ -19,7 +19,7 @@ def draw():
     # draw eyes
     pygame.draw.ellipse(screen, pygame.Color('black'), (420, 430, 6, 6), 2)
     pygame.draw.ellipse(screen, pygame.Color('black'), (455, 430, 6, 6), 2)
-
+#
 
 draw()
 
