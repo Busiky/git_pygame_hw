@@ -9,7 +9,7 @@ screen = pygame.display.set_mode(size)
 
 
 def draw():
-    pass
+    pygame.draw.rect(screen, pygame.Color('blue'), (50, 20, 430, 100))
 
 draw()
 
