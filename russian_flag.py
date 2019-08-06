@@ -14,6 +14,7 @@ def draw():
     pygame.draw.rect(screen, pygame.Color('red'), (50, 220, 430, 100))
     pygame.draw.rect(screen, pygame.Color('blue'), (50, 120, 430, 100))
     # draw smile
+    pygame.draw.ellipse(screen, pygame.Color('yellow'), (400, 400, 80, 80))
 
 draw()
 
